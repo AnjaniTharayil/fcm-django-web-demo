@@ -12,8 +12,7 @@ Quick demo to demonstrate the use of firebase web push notifications with the us
 
 ### frontend
 - in `fcm-django-web-demo/frontend`:
-  - run server with `python -m SimpleHTTPServer 8001`
-
+  - run server with `python3 -m http.server 8001
 ### backend
 - in `fcm-django-web-demo/mysite`:
   - run database migrations with `python manage.py migrate`
